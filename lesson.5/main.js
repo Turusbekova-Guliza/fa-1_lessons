@@ -59,13 +59,13 @@ const cars = [{
     model:"Audi",
     price: 2220,
     color: 'black',
-    img: "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/all-models/m-performance-automobile/i7-m70-xdrive/bmw-i7-m70-stage-teaser.png.asset.1681387862051.png"
+    img: "https://avatars.mds.yandex.net/get-verba/216201/2a0000017f6e15f4368df3112afb695baac4/cattouchret"
   },
                 {
     model:"BMW",
     price: 4220,
     color: 'blue',
-    img: "https://avatars.mds.yandex.net/get-verba/216201/2a0000017f6e15f4368df3112afb695baac4/cattouchret"
+    img: "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/all-models/m-performance-automobile/i7-m70-xdrive/bmw-i7-m70-stage-teaser.png.asset.1681387862051.png"
   },
                
                ]
@@ -82,7 +82,7 @@ for( const car of cars ){
         <div>
             <h1>${car.model}</h1>
             <h1>${car.price} $ </h1>
-            <h1>${car.color} $ </h1>
+            <h1>${car.color} </h1>
         </div>
     <div>`
 }
