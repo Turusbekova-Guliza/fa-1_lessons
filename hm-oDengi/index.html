@@ -22,7 +22,7 @@
       <a class="a__href" href="#">
         <h1>SMART BANKING</h1>
       </a>
-      <a class="a__href" href="">
+      <a class="a__href" href="./2-dom/dom.html">
         <button class="btn__href">LOG OUT</button>
       </a>
     </header>
@@ -35,14 +35,14 @@
               src="./images/person-1824144_1280.webp"
               alt=""
             />
-            <p class="p__sliver">Package: Sliver</p>
-            <p class="p__viet">Viet Nam</p>
+            <p id="user-status" class="p__sliver">Package: Sliver</p>
+            <p id="user-lastname" class="p__viet">Turusbekova</p>
           </div>
           <div>
-            <p class="vinh__p">vinh</p>
-            <p class="member__p">member:30.05.2023</p>
+            <p id="user-name" class="vinh__p">Guliza</p>
+            <p id="user-date" class="member__p">member:30.05.2023</p>
             <div>
-              <button class="d-f__btn">Change</button>
+              <button id="btn-change" class="d-f__btn">Change</button>
             </div>
           </div>
         </div>
@@ -61,12 +61,12 @@
           <p class="pay__info">PAYMENT</p>
           <p class="dep__with">Deposit</p>
           <span class="input-group-text">$</span>
-          <input type="number" placeholder="Enter money" />
-          <!-- <input type="text" class="form-controll"  aria-label="Amount (to the nearest dollar)"> -->
-          <button class="btn__dep" class="btn btn-primary">Deposit</button>
-          <p class="dep__with">Withdrawal</p>
-          <span class="input-group-text">$</span><input placeholder="Enter money" type="number" />
-          <button class="btn__dep">Withdrawal</button>
+          <input id="dep-number" type="number" placeholder="Enter money" />
+          <button id="deposit" class="btn__dep" class="btn btn-primary">Deposit</button>
+          <p  class="dep__with">Withdrawal</p>
+          <span class="input-group-text">$</span>
+          <input id="with-input" placeholder="Enter money" type="number" />
+          <button id="withdrawal" class="btn__dep">Withdrawal</button>
           <p class="dep__with">Send money</p>
           <input  placeholder="Enter number" type="number" />
           <span class="input-group-text">$</span><input id="input__btn" class="input__btn-1" placeholder="Enter" type="number" />

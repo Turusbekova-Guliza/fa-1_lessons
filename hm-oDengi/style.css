@@ -53,7 +53,6 @@ body {
     height: 190px;
 }
 .vinh__p {
-    position: absolute;
     padding-left: 9px;
     font-size: 23px;
     color: black;
@@ -62,12 +61,12 @@ body {
     font-size: 10px;
     color: rgb(136, 136, 136);
     position: absolute;
-    top: 50px;
+    right: 20%;
+    top: 30%;
 }
 .d-f__btn {
     position: absolute;
-    bottom: 30px;
-    right: 20px;
+    bottom: 20%;
     background-color: dodgerblue;
     color: #fff;
     border: none;

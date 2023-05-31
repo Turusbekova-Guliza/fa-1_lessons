@@ -1,0 +1,41 @@
+main {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20% 0 20%;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+main>section:first-child {
+    color: #fff;
+}
+main>section:last-child {
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+main>section:last-child>h3 {
+    color: dodgerblue;
+}
+main>section:last-child>p {
+    color: #989696;
+    font-size: 13px;
+}
+main>section:last-child>input:last-child {
+    border: none;
+    border-radius: 2px;
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 13px;
+    width: 80%;
+    height: 27px;
+    margin: 0 0 0 10%;
+}main>section:last-child>input:nth-child(1), main>section:last-child>input:nth-child(2) {
+    border: solid #989696;
+    border-radius: 2px;
+    background-color: #fff;
+}
+input {
+    outline: none;
+}
