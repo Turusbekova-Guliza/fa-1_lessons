@@ -1,0 +1,14 @@
+.div {
+    background-color: white;
+    border: 5px solid black;
+    border-right: 10%;
+    width: 200px;
+    height: 200px;
+}
+.span {
+    background-color: white;
+    border: 5px black solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}

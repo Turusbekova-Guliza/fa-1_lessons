@@ -14,7 +14,7 @@ depBtn.onclick = () => {
 }
 
 withBtn.onclick = () => {
-    if(withInput.value > Number(pTag.innerText)) {
+    if( parseInt(withInput.value) > Number(pTag.innerText)) {
         alert('There is not enough money on your balance. Your balance:' + pTag.innerText)
     }
     pTag.innerText = parseInt(pTag.innerText) - parseInt(withInput.value) + '$'

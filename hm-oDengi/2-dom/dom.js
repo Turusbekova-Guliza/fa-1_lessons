@@ -19,4 +19,6 @@ btnForm.onclick = (e) => {
   } else {
     alert("Email or Password Wrong");
   }
+  uPasswordInput.value = ''
+  uEmailInput.value = ''
 };
