@@ -74,7 +74,7 @@ const laptops = [
   },
   {
     name: "Acer",
-    price: 30000,
+    price: 300000,
     year: 2018,
     ssd: 5012,
   },
