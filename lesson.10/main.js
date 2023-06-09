@@ -108,7 +108,7 @@ select.onchange = (e) => {
       const acer = laptops.filter(element =>  element.name === "Acer");
       renderLaptops(acer, 0);
       break;
-    default:
+    default: 
       renderLaptops(laptops, 2);
       renderLaptops(laptops, 1);
       renderLaptops(laptops, 0);
