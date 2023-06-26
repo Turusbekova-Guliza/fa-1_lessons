@@ -1,0 +1,18 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+input {
+    width: 150px;
+    height: 30%;
+    text-decoration: none;
+    border: solid lightgray;
+    border-radius: 5px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
